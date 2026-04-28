@@ -99,32 +99,6 @@ p {
   display: none;
 }
 
-.selector-idioma {
-  display: inline-flex;
-  gap: 0.3rem;
-  margin-left: 0.6rem;
-}
-
-.boton-idioma {
-  border: 1px solid var(--line);
-  background: var(--surface);
-  color: var(--muted);
-  font: inherit;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 0.26rem 0.42rem;
-  cursor: pointer;
-  border-radius: var(--radius);
-  transition: background 0.2s, color 0.2s;
-}
-
-.boton-idioma.activo {
-  color: var(--white);
-  background: var(--accent);
-  border-color: var(--accent);
-}
-
  .barra-superior {
   width: var(--content-width);
   margin: 0 auto;
